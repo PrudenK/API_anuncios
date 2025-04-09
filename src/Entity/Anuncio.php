@@ -51,7 +51,7 @@ class Anuncio
     /**
      * @ORM\ManyToOne(targetEntity="App\Entity\Tipo")
      * @ORM\JoinColumn(name="tipo", referencedColumnName="id", nullable=true, onDelete="SET NULL")
-     * @Groups("anuncios")
+     * @Groups("anuncios_tipo")
      */
     private $tipo;
     /**
@@ -101,12 +101,12 @@ class Anuncio
     {
         $this->vecesclickado = $vecesclickado;
     }
-    public function getTipo(): ?TIpo
+    public function getTipo(): ?Tipo
     {
         return $this->tipo;
     }
 
-    public function setTipo(?TIpo $tipo): void
+    public function setTipo(?Tipo $tipo): void
     {
         $this->tipo = $tipo;
     }

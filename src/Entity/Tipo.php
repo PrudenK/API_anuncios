@@ -11,7 +11,7 @@ use Symfony\Component\Serializer\Annotation\Groups;
  * @ORM\Table(name="tipo")
  * @ORM\Entity
  */
-class TIpo
+class Tipo
 {
     /**
      * @var int
@@ -19,7 +19,7 @@ class TIpo
      * @ORM\Column(name="id", type="integer", nullable=false)
      * @ORM\Id
      * @ORM\GeneratedValue(strategy="IDENTITY")
-     * @Groups("anuncios")
+     * @Groups("tipo")
      */
     private $id;
 
@@ -27,7 +27,7 @@ class TIpo
      * @var string
      *
      * @ORM\Column(name="nombre", type="string", length=255, nullable=false)
-     * @Groups("anuncios")
+     * @Groups("tipo")
      */
     private $nombre;
 

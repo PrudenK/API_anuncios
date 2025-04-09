@@ -19,7 +19,7 @@ class AnuncioController extends AbstractController
         $anuncios = $this->getDoctrine()->getRepository(Anuncio::class)->findAll();
 
         $data = $serializer->serialize(
-            $anuncios, 'json', ['groups' => ['anuncios'] ]
+            $anuncios, 'json', ['groups' => ['anuncios', 'anuncios_tipo', 'tipo'] ]
         );
 
         return new JsonResponse($data,Response::HTTP_OK, [], true);

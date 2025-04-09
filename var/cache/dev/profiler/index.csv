@@ -1766,3 +1766,15 @@ b29d67,172.18.0.1,GET,http://localhost:8082/anuncios,1744184258,,200
 5c17c3,172.18.0.1,GET,http://localhost:8082/anuncios,1744186323,,200
 4e6868,172.18.0.1,GET,http://localhost:8082/anuncios,1744196191,bf5d82,500
 bf5d82,172.18.0.1,GET,http://localhost:8082/anuncios,1744196191,,500
+b47413,172.18.0.1,GET,http://localhost:8082/anuncios,1744196265,8cc504,500
+8cc504,172.18.0.1,GET,http://localhost:8082/anuncios,1744196265,,500
+177975,172.18.0.1,GET,http://localhost:8082/anuncios,1744196308,923a3d,500
+923a3d,172.18.0.1,GET,http://localhost:8082/anuncios,1744196308,,500
+b5c960,172.18.0.1,GET,http://localhost:8082/anuncios,1744196338,2bdf68,500
+2bdf68,172.18.0.1,GET,http://localhost:8082/anuncios,1744196338,,500
+4ee565,172.18.0.1,GET,http://localhost:8082/anuncios,1744196471,,200
+843225,172.18.0.1,GET,http://localhost:8082/anuncios,1744196517,,200
+ae633d,172.18.0.1,GET,http://localhost:8082/anuncios,1744196762,,200
+aab4da,172.18.0.1,GET,http://localhost:8082/anuncios,1744196963,,200
+b96230,172.18.0.1,GET,http://localhost:8082/anuncios,1744197081,,200
+30c59f,172.18.0.1,GET,http://localhost:8082/anuncios,1744197176,,200
