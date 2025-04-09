@@ -47,6 +47,21 @@ class Anuncio
      */
     private $vecesclickado = '0';
 
+
+    /**
+     * @ORM\ManyToOne(targetEntity="App\Entity\Tipo")
+     * @ORM\JoinColumn(name="tipo", referencedColumnName="id", nullable=true, onDelete="SET NULL")
+     * @Groups("anuncios")
+     */
+    private $tipo;
+    /**
+     * @var string|null
+     *
+     * @ORM\Column(name="nombre", type="string", nullable=true)
+     * @Groups ("anuncios")
+     */
+    private $nombre;
+
     public function getId(): int
     {
         return $this->id;
@@ -85,6 +100,26 @@ class Anuncio
     public function setVecesclickado(int|string|null $vecesclickado): void
     {
         $this->vecesclickado = $vecesclickado;
+    }
+    public function getTipo(): ?TIpo
+    {
+        return $this->tipo;
+    }
+
+    public function setTipo(?TIpo $tipo): void
+    {
+        $this->tipo = $tipo;
+    }
+
+
+    public function getNombre(): ?string
+    {
+        return $this->nombre;
+    }
+
+    public function setNombre(?string $nombre): void
+    {
+        $this->nombre = $nombre;
     }
 
 

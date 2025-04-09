@@ -12,5 +12,26 @@ CREATE TABLE IF NOT EXISTS `anuncio` (
     `id` INT AUTO_INCREMENT PRIMARY KEY,
     `imagen` VARCHAR(255) NOT NULL,
     `link` VARCHAR(255) NOT NULL,
-    `vecesClickado` INT DEFAULT 0
+    `vecesClickado` INT DEFAULT 0,
+    `tipo` INT,
+    `nombre` VARCHAR(255)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+
+CREATE TABLE anuncio (
+     id INT AUTO_INCREMENT PRIMARY KEY,
+     imagen VARCHAR(255) NOT NULL,
+     link VARCHAR(255) NOT NULL,
+     vecesClickado INT DEFAULT 0,
+     tipo INT,
+     nombre VARCHAR(255),
+
+     FOREIGN KEY (tipo) REFERENCES tipo_anuncio(id) ON DELETE SET NULL
+);
+
+
+CREATE TABLE tipo_anuncio (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  nombre VARCHAR(255) NOT NULL
+);
