@@ -8,7 +8,7 @@ use Symfony\Component\Serializer\Annotation\Groups;
 /**
  * Tipo
  *
- * @ORM\Table(name="tipo")
+ * @ORM\Table(name="tipo_anuncio")
  * @ORM\Entity
  */
 class Tipo
