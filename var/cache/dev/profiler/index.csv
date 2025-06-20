@@ -1939,3 +1939,11 @@ d4a5fb,172.18.0.1,GET,http://localhost:8082/anuncios,1749216768,,200
 deceab,172.18.0.1,GET,http://localhost:8082/anuncios,1749217222,,200
 138dc7,192.168.1.46,GET,http://192.168.1.140:8082/anuncios,1749217940,,200
 4f46e9,172.18.0.1,GET,http://localhost:8082/anuncios,1749217952,,200
+a674bb,192.168.1.46,GET,http://192.168.1.140:8082/anuncios,1749455085,,200
+6227b1,172.18.0.1,GET,http://localhost:8082/anuncios,1749455147,,200
+c15f92,172.18.0.1,GET,http://localhost:8082/anuncios,1749459031,,200
+751f9a,172.18.0.1,GET,http://localhost:8082/anuncios,1749464858,,200
+5a8060,192.168.124.122,GET,http://192.168.124.42:8082/anuncios,1749465304,,200
+2b4b0a,192.168.124.122,GET,http://192.168.124.42:8082/anuncios,1749465522,,200
+9ff53a,172.18.0.1,GET,http://localhost:8082/anuncios,1749465525,,200
+dd7087,172.18.0.1,GET,http://localhost:8082/anuncios,1749466233,,200
